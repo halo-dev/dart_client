@@ -1,0 +1,227 @@
+// GENERATED CODE - DO NOT MODIFY BY HAND
+
+part of 'reason_type_list.dart';
+
+// **************************************************************************
+// BuiltValueGenerator
+// **************************************************************************
+
+class _$ReasonTypeList extends ReasonTypeList {
+  @override
+  final bool first;
+  @override
+  final bool hasNext;
+  @override
+  final bool hasPrevious;
+  @override
+  final BuiltList<ReasonType> items;
+  @override
+  final bool last;
+  @override
+  final int page;
+  @override
+  final int size;
+  @override
+  final int total;
+  @override
+  final int totalPages;
+
+  factory _$ReasonTypeList([void Function(ReasonTypeListBuilder)? updates]) =>
+      (new ReasonTypeListBuilder()..update(updates))._build();
+
+  _$ReasonTypeList._(
+      {required this.first,
+      required this.hasNext,
+      required this.hasPrevious,
+      required this.items,
+      required this.last,
+      required this.page,
+      required this.size,
+      required this.total,
+      required this.totalPages})
+      : super._() {
+    BuiltValueNullFieldError.checkNotNull(first, r'ReasonTypeList', 'first');
+    BuiltValueNullFieldError.checkNotNull(
+        hasNext, r'ReasonTypeList', 'hasNext');
+    BuiltValueNullFieldError.checkNotNull(
+        hasPrevious, r'ReasonTypeList', 'hasPrevious');
+    BuiltValueNullFieldError.checkNotNull(items, r'ReasonTypeList', 'items');
+    BuiltValueNullFieldError.checkNotNull(last, r'ReasonTypeList', 'last');
+    BuiltValueNullFieldError.checkNotNull(page, r'ReasonTypeList', 'page');
+    BuiltValueNullFieldError.checkNotNull(size, r'ReasonTypeList', 'size');
+    BuiltValueNullFieldError.checkNotNull(total, r'ReasonTypeList', 'total');
+    BuiltValueNullFieldError.checkNotNull(
+        totalPages, r'ReasonTypeList', 'totalPages');
+  }
+
+  @override
+  ReasonTypeList rebuild(void Function(ReasonTypeListBuilder) updates) =>
+      (toBuilder()..update(updates)).build();
+
+  @override
+  ReasonTypeListBuilder toBuilder() =>
+      new ReasonTypeListBuilder()..replace(this);
+
+  @override
+  bool operator ==(Object other) {
+    if (identical(other, this)) return true;
+    return other is ReasonTypeList &&
+        first == other.first &&
+        hasNext == other.hasNext &&
+        hasPrevious == other.hasPrevious &&
+        items == other.items &&
+        last == other.last &&
+        page == other.page &&
+        size == other.size &&
+        total == other.total &&
+        totalPages == other.totalPages;
+  }
+
+  @override
+  int get hashCode {
+    var _$hash = 0;
+    _$hash = $jc(_$hash, first.hashCode);
+    _$hash = $jc(_$hash, hasNext.hashCode);
+    _$hash = $jc(_$hash, hasPrevious.hashCode);
+    _$hash = $jc(_$hash, items.hashCode);
+    _$hash = $jc(_$hash, last.hashCode);
+    _$hash = $jc(_$hash, page.hashCode);
+    _$hash = $jc(_$hash, size.hashCode);
+    _$hash = $jc(_$hash, total.hashCode);
+    _$hash = $jc(_$hash, totalPages.hashCode);
+    _$hash = $jf(_$hash);
+    return _$hash;
+  }
+
+  @override
+  String toString() {
+    return (newBuiltValueToStringHelper(r'ReasonTypeList')
+          ..add('first', first)
+          ..add('hasNext', hasNext)
+          ..add('hasPrevious', hasPrevious)
+          ..add('items', items)
+          ..add('last', last)
+          ..add('page', page)
+          ..add('size', size)
+          ..add('total', total)
+          ..add('totalPages', totalPages))
+        .toString();
+  }
+}
+
+class ReasonTypeListBuilder
+    implements Builder<ReasonTypeList, ReasonTypeListBuilder> {
+  _$ReasonTypeList? _$v;
+
+  bool? _first;
+  bool? get first => _$this._first;
+  set first(bool? first) => _$this._first = first;
+
+  bool? _hasNext;
+  bool? get hasNext => _$this._hasNext;
+  set hasNext(bool? hasNext) => _$this._hasNext = hasNext;
+
+  bool? _hasPrevious;
+  bool? get hasPrevious => _$this._hasPrevious;
+  set hasPrevious(bool? hasPrevious) => _$this._hasPrevious = hasPrevious;
+
+  ListBuilder<ReasonType>? _items;
+  ListBuilder<ReasonType> get items =>
+      _$this._items ??= new ListBuilder<ReasonType>();
+  set items(ListBuilder<ReasonType>? items) => _$this._items = items;
+
+  bool? _last;
+  bool? get last => _$this._last;
+  set last(bool? last) => _$this._last = last;
+
+  int? _page;
+  int? get page => _$this._page;
+  set page(int? page) => _$this._page = page;
+
+  int? _size;
+  int? get size => _$this._size;
+  set size(int? size) => _$this._size = size;
+
+  int? _total;
+  int? get total => _$this._total;
+  set total(int? total) => _$this._total = total;
+
+  int? _totalPages;
+  int? get totalPages => _$this._totalPages;
+  set totalPages(int? totalPages) => _$this._totalPages = totalPages;
+
+  ReasonTypeListBuilder() {
+    ReasonTypeList._defaults(this);
+  }
+
+  ReasonTypeListBuilder get _$this {
+    final $v = _$v;
+    if ($v != null) {
+      _first = $v.first;
+      _hasNext = $v.hasNext;
+      _hasPrevious = $v.hasPrevious;
+      _items = $v.items.toBuilder();
+      _last = $v.last;
+      _page = $v.page;
+      _size = $v.size;
+      _total = $v.total;
+      _totalPages = $v.totalPages;
+      _$v = null;
+    }
+    return this;
+  }
+
+  @override
+  void replace(ReasonTypeList other) {
+    ArgumentError.checkNotNull(other, 'other');
+    _$v = other as _$ReasonTypeList;
+  }
+
+  @override
+  void update(void Function(ReasonTypeListBuilder)? updates) {
+    if (updates != null) updates(this);
+  }
+
+  @override
+  ReasonTypeList build() => _build();
+
+  _$ReasonTypeList _build() {
+    _$ReasonTypeList _$result;
+    try {
+      _$result = _$v ??
+          new _$ReasonTypeList._(
+            first: BuiltValueNullFieldError.checkNotNull(
+                first, r'ReasonTypeList', 'first'),
+            hasNext: BuiltValueNullFieldError.checkNotNull(
+                hasNext, r'ReasonTypeList', 'hasNext'),
+            hasPrevious: BuiltValueNullFieldError.checkNotNull(
+                hasPrevious, r'ReasonTypeList', 'hasPrevious'),
+            items: items.build(),
+            last: BuiltValueNullFieldError.checkNotNull(
+                last, r'ReasonTypeList', 'last'),
+            page: BuiltValueNullFieldError.checkNotNull(
+                page, r'ReasonTypeList', 'page'),
+            size: BuiltValueNullFieldError.checkNotNull(
+                size, r'ReasonTypeList', 'size'),
+            total: BuiltValueNullFieldError.checkNotNull(
+                total, r'ReasonTypeList', 'total'),
+            totalPages: BuiltValueNullFieldError.checkNotNull(
+                totalPages, r'ReasonTypeList', 'totalPages'),
+          );
+    } catch (_) {
+      late String _$failedField;
+      try {
+        _$failedField = 'items';
+        items.build();
+      } catch (e) {
+        throw new BuiltValueNestedFieldError(
+            r'ReasonTypeList', _$failedField, e.toString());
+      }
+      rethrow;
+    }
+    replace(_$result);
+    return _$result;
+  }
+}
+
+// ignore_for_file: deprecated_member_use_from_same_package,type=lint

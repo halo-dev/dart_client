@@ -1,0 +1,7 @@
+pubAuthor: halo-dev
+pubAUthorEmail: hi@halo.run
+pubDescription: Halo REST API client for Dart
+pubHomepage: https://github.com/halo-dev/dart_client
+pubLibrary: run.halo
+pubName: halo_client
+pubVersion: 1.0.0
