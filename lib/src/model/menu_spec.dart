@@ -13,14 +13,14 @@ part 'menu_spec.g.dart';
 ///
 /// Properties:
 /// * [displayName] - The display name of the menu.
-/// * [menuItems] - Names of menu children below this menu.
+/// * [menuItems] - Menu items of this menu.
 @BuiltValue()
 abstract class MenuSpec implements Built<MenuSpec, MenuSpecBuilder> {
   /// The display name of the menu.
   @BuiltValueField(wireName: r'displayName')
   String get displayName;
 
-  /// Names of menu children below this menu.
+  /// Menu items of this menu.
   @BuiltValueField(wireName: r'menuItems')
   BuiltSet<String>? get menuItems;
 

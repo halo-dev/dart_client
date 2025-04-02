@@ -9,7 +9,7 @@ import 'package:halo_client/api.dart';
 Name | Type | Description | Notes
 ------------ | ------------- | ------------- | -------------
 **displayName** | **String** | The display name of the menu. | 
-**menuItems** | **BuiltSet&lt;String&gt;** | Names of menu children below this menu. | [optional] 
+**menuItems** | **BuiltSet&lt;String&gt;** | Menu items of this menu. | [optional] 
 
 [[Back to Model list]](../README.md#documentation-for-models) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to README]](../README.md)
 

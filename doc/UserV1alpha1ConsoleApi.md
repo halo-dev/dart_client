@@ -13,6 +13,8 @@ Method | HTTP request | Description
 [**changeOwnPassword**](UserV1alpha1ConsoleApi.md#changeownpassword) | **PUT** /apis/api.console.halo.run/v1alpha1/users/-/password | 
 [**createUser**](UserV1alpha1ConsoleApi.md#createuser) | **POST** /apis/api.console.halo.run/v1alpha1/users | 
 [**deleteUserAvatar**](UserV1alpha1ConsoleApi.md#deleteuseravatar) | **DELETE** /apis/api.console.halo.run/v1alpha1/users/{name}/avatar | 
+[**disableUser**](UserV1alpha1ConsoleApi.md#disableuser) | **POST** /apis/console.api.security.halo.run/v1alpha1/users/{username}/disable | 
+[**enableUser**](UserV1alpha1ConsoleApi.md#enableuser) | **POST** /apis/console.api.security.halo.run/v1alpha1/users/{username}/enable | 
 [**getCurrentUserDetail**](UserV1alpha1ConsoleApi.md#getcurrentuserdetail) | **GET** /apis/api.console.halo.run/v1alpha1/users/- | 
 [**getPermissions**](UserV1alpha1ConsoleApi.md#getpermissions) | **GET** /apis/api.console.halo.run/v1alpha1/users/{name}/permissions | 
 [**getUserDetail**](UserV1alpha1ConsoleApi.md#getuserdetail) | **GET** /apis/api.console.halo.run/v1alpha1/users/{name} | 
@@ -194,6 +196,98 @@ try {
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
  **name** | **String**| User name | 
+
+### Return type
+
+[**User**](User.md)
+
+### Authorization
+
+[basicAuth](../README.md#basicAuth), [bearerAuth](../README.md#bearerAuth)
+
+### HTTP request headers
+
+ - **Content-Type**: Not defined
+ - **Accept**: */*
+
+[[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
+
+# **disableUser**
+> User disableUser(username)
+
+
+
+Disable user by username
+
+### Example
+```dart
+import 'package:halo_client/api.dart';
+// TODO Configure HTTP basic authorization: basicAuth
+//defaultApiClient.getAuthentication<HttpBasicAuth>('basicAuth').username = 'YOUR_USERNAME'
+//defaultApiClient.getAuthentication<HttpBasicAuth>('basicAuth').password = 'YOUR_PASSWORD';
+
+final api = HaloClient().getUserV1alpha1ConsoleApi();
+final String username = username_example; // String | Username
+
+try {
+    final response = api.disableUser(username);
+    print(response);
+} catch on DioException (e) {
+    print('Exception when calling UserV1alpha1ConsoleApi->disableUser: $e\n');
+}
+```
+
+### Parameters
+
+Name | Type | Description  | Notes
+------------- | ------------- | ------------- | -------------
+ **username** | **String**| Username | 
+
+### Return type
+
+[**User**](User.md)
+
+### Authorization
+
+[basicAuth](../README.md#basicAuth), [bearerAuth](../README.md#bearerAuth)
+
+### HTTP request headers
+
+ - **Content-Type**: Not defined
+ - **Accept**: */*
+
+[[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
+
+# **enableUser**
+> User enableUser(username)
+
+
+
+Enable user by username
+
+### Example
+```dart
+import 'package:halo_client/api.dart';
+// TODO Configure HTTP basic authorization: basicAuth
+//defaultApiClient.getAuthentication<HttpBasicAuth>('basicAuth').username = 'YOUR_USERNAME'
+//defaultApiClient.getAuthentication<HttpBasicAuth>('basicAuth').password = 'YOUR_PASSWORD';
+
+final api = HaloClient().getUserV1alpha1ConsoleApi();
+final String username = username_example; // String | Username
+
+try {
+    final response = api.enableUser(username);
+    print(response);
+} catch on DioException (e) {
+    print('Exception when calling UserV1alpha1ConsoleApi->enableUser: $e\n');
+}
+```
+
+### Parameters
+
+Name | Type | Description  | Notes
+------------- | ------------- | ------------- | -------------
+ **username** | **String**| Username | 
 
 ### Return type
 
